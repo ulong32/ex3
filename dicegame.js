@@ -12,9 +12,9 @@ function main(input){
     console.log("Die 2: " + d2);
     console.log("Total value: " + (d1+d2));
     if(d1 + d2 <= 6) {
-        console.log("You lose!");
+        console.log(name+" lose!");
     } else {
-        console.log("You win!");
+        console.log(name+" win!");
     }
 }
 main(require('fs').readFileSync('/dev/stdin', 'utf8').split('\n'));
